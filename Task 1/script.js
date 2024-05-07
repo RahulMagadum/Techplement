@@ -1,5 +1,4 @@
 const apiKey = `7db5fc05c8813fc632fc47d5a12e0e9a`;
-// const city = "belagavi";
 
 async function fetchWeatherData(city) {
   try {
@@ -34,10 +33,7 @@ const descriptionText = document.querySelector(".description-text");
 const date = document.querySelector(".date");
 const descriptionIcon = document.querySelector(".description i");
 
-// fetchWeatherData();
-
-function displayErrorMessage(message) {
-  // Assuming you have a div in your HTML with the class 'error-message'
+function displayErrorMessage(message) 
   const errorMessageElement = document.querySelector(".error-message");
   errorMessageElement.textContent = message;
   errorMessageElement.style.display = "block"; // Show the error message element
